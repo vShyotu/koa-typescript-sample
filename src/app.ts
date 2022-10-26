@@ -1,8 +1,9 @@
 import Koa from "koa";
 import cors from "@koa/cors";
 import bodyParser from "koa-bodyparser";
-import router from "./routes";
+
 import logger from "./middleware/logger";
+import router from "./routers/entry";
 
 const app = new Koa();
 
